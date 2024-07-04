@@ -1,0 +1,15 @@
+{
+  "vue.server.hybridMode": true,
+  "editor.find.autoFindInSelection": "never",
+  "auto-close-tag.activationOnLanguage": ["*"],
+  "codesnap.showWindowTitle": true,
+  "auto-close-tag.fullMode": true,
+  "auto-close-tag.insertSpaceBeforeSelfClosingTag": true,
+  "auto-close-tag.SublimeText3Mode": true,
+  "auto-rename-tag.activationOnLanguage": ["*"],
+  "better-comments.highlightPlainText": true,
+  "better-comments.multilineComments": true,
+  "css.format.braceStyle": "expand",
+  "css.format.spaceAroundSelectorSeparator": true,
+  "CodeGPT.apiKey": "CodeGPT Plus Beta"
+}
