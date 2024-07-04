@@ -1,15 +1,26 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  components: true,
   devtools: { enabled: false },
-  compatibilityDate: "2024-07-03",
   css: ["~/assets/css/main.css"],
-
   postcss: {
     plugins: {
       tailwindcss: {},
       autoprefixer: {},
     },
   },
+  modules: ["@nuxtjs/tailwindcss", "@nuxt/image"],
 
-  modules: ["@nuxtjs/tailwindcss"]
+  experimental: {
+    defaults: {
+      nuxtLink: {
+        componentName: "NuxtLink",
+        externalRelAttribute: "noopener noreferrer",
+        activeClass: "router-link-active",
+        exactActiveClass: "router-link-exact-active",
+        prefetchedClass: undefined,
+        trailingSlash: undefined,
+      },
+    },
+  },
 });

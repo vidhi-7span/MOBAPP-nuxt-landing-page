@@ -10,9 +10,13 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxt/image": "^1.7.0",
     "@nuxtjs/tailwindcss": "^6.12.0",
     "nuxt": "^3.12.3",
-    "vue": "latest"
+    "sass": "^1.77.6",
+    "sass-loader": "^14.2.1",
+    "vue": "latest",
+    "vuetify": "^3.6.11"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.19",
