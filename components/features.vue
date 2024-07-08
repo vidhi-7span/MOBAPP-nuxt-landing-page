@@ -10,27 +10,76 @@
 
       <div class="cards flex justify-between">
         <div
-          class="bg-gradient-to-b from-violet-600 to-pink-400 rounded-r-lg drop-shadow-xl mx-4"
+          class="card-border bg-white rounded-r flex p-5 drop-shadow-xl mx-4"
         >
-          <div class="bg-white rounded-r flex ml-1 p-5">
-            <div class="mr-3">
-              <NuxtImg src="../public/images/smile.png" />
-            </div>
-            <div>
-              <p class="text-xl mb-3 text-[#633991] font-semibold">Simple</p>
-              <p class="text-sm break-words font-normal text-[#959094]">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Accusantium eos dolorum dicta ipsam cum blanditiis animi omnis,
-                eligendi, et, fuga libero repudiandae minus unde illo? Numquam
-                voluptate officia molestiae cumque.
-              </p>
-            </div>
+          <div class="pr-4">
+            <NuxtImg
+              src="../public/images/smile.png"
+              height="100%"
+              width="100%"
+            />
+          </div>
+
+          <div>
+            <p class="text-xl mb-3 text-[#633991] font-semibold">Simple</p>
+            <p class="text-sm break-words font-normal text-[#959094]">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+              rutrum, urna eu pellentesque
+            </p>
           </div>
         </div>
 
-        <div>Card2</div>
-        <div>Card3</div>
+        <div
+          class="card-border bg-white rounded-r flex p-5 drop-shadow-xl mx-4"
+        >
+          <div class="pr-4">
+            <NuxtImg
+              src="../public/images/setting.png"
+              height="100%"
+              width="100%"
+            />
+          </div>
+
+          <div>
+            <p class="text-xl mb-3 text-[#633991] font-semibold">Simple</p>
+            <p class="text-sm break-words font-normal text-[#959094]">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+              rutrum, urna eu pellentesque
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="card-border bg-white rounded-r flex p-5 drop-shadow-xl mx-4"
+        >
+          <div class="pr-4">
+            <NuxtImg
+              src="../public/images/lock.png"
+              height="100%"
+              width="100%"
+            />
+          </div>
+
+          <div>
+            <p class="text-xl mb-3 text-[#633991] font-semibold">Simple</p>
+            <p class="text-sm break-words font-normal text-[#959094]">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+              rutrum, urna eu pellentesque
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </template>
+<style>
+.card-border::before {
+  content: "";
+  position: absolute;
+  width: 3px;
+  background: linear-gradient(to bottom, #9477b4 0%, #fc73b4 100%);
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+</style>
