@@ -3,5 +3,4 @@
     <Header />
     <NuxtPage />
   </div>
-  
 </template>

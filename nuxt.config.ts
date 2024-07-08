@@ -11,7 +11,16 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: ["@nuxtjs/tailwindcss", "@nuxt/image"],
+  modules: ["@nuxtjs/tailwindcss", "@nuxt/image", "@nuxt/icon"],
+
+  icon: {
+    customCollections: [
+      {
+        prefix: "icon",
+        dir: "./assets/icons",
+      },
+    ],
+  },
 
   experimental: {
     defaults: {

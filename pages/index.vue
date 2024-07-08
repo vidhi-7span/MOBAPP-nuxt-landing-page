@@ -21,6 +21,7 @@
       </div>
     </div>
     <ClientLogos />
+    <Features />
   </div>
 
   <!-- Cilent -->
