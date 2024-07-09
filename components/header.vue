@@ -1,7 +1,7 @@
 <template>
   <div
     id="header"
-    class="bg-gradient-to-r from-violet-900 to-pink-600 sticky top-0 transition-all duration-300"
+    class="bg-gradient-to-r from-violet-900 to-pink-600 sticky z-50 top-0 transition-all duration-300"
     :class="isCompact ? 'py-0 shadow-2xl' : 'py-4 shadow-none'"
   >
     <div class="container mx-auto">
