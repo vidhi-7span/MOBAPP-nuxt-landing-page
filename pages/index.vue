@@ -23,6 +23,7 @@
     <ClientLogos />
     <Features />
     <Discover />
+    <Launch />
   </div>
 
   <!-- Cilent -->
