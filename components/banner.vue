@@ -15,7 +15,7 @@
       </p>
 
       <div class="flex justify-center">
-        <NuxtImg  src="../public/images/iphonex.ng" alt="Banner Image" />
+        <NuxtImg src="../public/images/iphonex.ng" alt="Banner Image" />
       </div>
     </div>
     <ClientLogos />

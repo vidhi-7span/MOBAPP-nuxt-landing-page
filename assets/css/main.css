@@ -7,3 +7,23 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+.customShadow {
+  box-shadow: 0px 0px 43px 0px rgba(0, 0, 0, 0.14);
+}
+.customHeader {
+  color: #633991;
+}
+.descriptionColor {
+  color: #959094;
+}
+.customButton {
+  border-radius: 3px;
+  padding: 10px 32px;
+  box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  background: linear-gradient(122deg, #e54595 0%, #fd378e 100%);
+}
+.customButton:hover {
+  background: linear-gradient(122deg, #fd378e 0%, #e54595 100%);
+  box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.3);
+}
